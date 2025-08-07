@@ -1,8 +1,3 @@
-# Jeronimo Martinez Barragan
-# CSC 310
-# Project 4
-# 05/03/2025
-
 # VIGENÈRE CIPHER
 def vigenere_cipher(line, key, encrypt=True):
     result = []
@@ -92,6 +87,7 @@ def main():
     # Decrypt
     else:
         decrypt_file(input_file, output_file, key)
+
 
 
 main()
